@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Login</title>
+    <link rel="stylesheet" href="{{url_for('static',filename='login.css')}}">
+</head>
+<body>
+    <div class="image"></div>
+
+    <form  action ="" method="post">
+
+        <h2 class="font-effect-neon">Login your account</h2>
+
+        <img src="{{url_for('static',filename='loginicon.png')}}" alt="logpng">
+
+        <div class="container" >
+            <b>User Name</b>
+            <input type="text" name = "usrnm"
+            placeholder="Enter User Name" required>
+            <b>Password</b>
+            <input type="password" name = "psw"
+            placeholder="Enter Password" required>
+        </div>
+
+        <div class="container1">
+            <input class="button button1" type="submit" value="Log In"><br><br>
+            <span class="forget"><a href="#">Forget password?</a></span><br><hr>
+            <a href="/register"><button class="button button2" type="button"> Sign up</button></a>
+        </div>
+    </form>
+</body>
+</html>

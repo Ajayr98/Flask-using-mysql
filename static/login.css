@@ -1,0 +1,88 @@
+        body{
+            font-family:Arial, Helvetica, sans-serif;
+            width: 500px;
+            height: 500px;
+            background-image: url(login.css),
+            linear-gradient(to right, rgba(30, 75, 115, 1), rgba(255, 255, 255, 0));
+        }
+        input[type=text],input[type=password]{
+            width: 100%;
+            padding: 12px 20px;
+            margin: 8px 0;
+            display:inline-block;
+            border:1px solid #ccc;
+            box-sizing: border-box;
+        }
+
+        .button {
+            border: none;
+            border-radius: 8px;
+            color: white;
+            padding: 10px 20px;
+            text-align: center;
+            text-decoration: none;
+            font-size: 15px;
+            cursor: pointer;
+            margin: 2px 4px;
+        }
+        .imgcontainer{
+            text-align: center;
+            margin: 24px 12px;
+        }
+        .logicon{
+            width: 200px;
+            border-radius: 50px;
+        }
+        .button1 {
+            background-color: rgb(85, 73, 255);
+        }
+        .button1:hover{
+            opacity: 0.8;
+        }
+        .button2 {
+            background-color: rgb(26, 223, 0);
+        }
+        .button2:hover{
+            opacity: 0.7;
+        }
+        .container{
+            padding: 16px;
+            color: rgb(255, 255, 255);
+        }
+        span.forget{
+            text-align:center;
+        }
+        a:link, a:visited {
+            text-decoration: none;
+            color: white;
+            text-align: center;
+        }
+        .container1{
+            padding: 16px;
+            text-align:center;
+        }
+        h2{
+            text-align: center;
+            color: white;
+            font-family: 'Dancing Script', cursive;
+            font-size: 30px;
+        }
+
+        img{
+            width: 115px;
+            height: 100px;
+            display: block;
+            margin: auto;
+        }
+        form{
+            height: 550px;
+            width: 350px;
+            background-color: rgba(77, 199, 247, 0.13);
+            position: absolute;
+            transform: translate(-50%,-50%);
+            top: 50%;
+            left: 50%;
+            border: 2px solid rgba(39, 230, 255, 0.1);
+            box-shadow: 0 0 40px rgba(8,7,16,0.6);
+            padding: 20px 15px;
+        }
